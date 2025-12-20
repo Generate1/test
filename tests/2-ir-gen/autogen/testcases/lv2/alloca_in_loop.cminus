@@ -1,0 +1,11 @@
+void main(void) {
+    int i;
+    i = 0;
+    while (i < 16384) {
+        int a[16384];
+        a[1] = i;
+        i = i + 1;
+    }
+    output(0);
+    return;
+}
