@@ -1,0 +1,194 @@
+[
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/parser",
+  "command": "/usr/bin/cc  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -std=c99 -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/syntax.dir/syntax_analyzer.c.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/parser/syntax_analyzer.c",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/parser/syntax_analyzer.c",
+  "output": "src/parser/CMakeFiles/syntax.dir/syntax_analyzer.c.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/parser",
+  "command": "/usr/bin/cc  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -std=c99 -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/syntax.dir/lexical_analyzer.c.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/parser/lexical_analyzer.c",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/parser/lexical_analyzer.c",
+  "output": "src/parser/CMakeFiles/syntax.dir/lexical_analyzer.c.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/parser",
+  "command": "/usr/bin/cc  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -std=c99 -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/parser.dir/parser.c.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/src/parser/parser.c",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/src/parser/parser.c",
+  "output": "src/parser/CMakeFiles/parser.dir/parser.c.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/parser",
+  "command": "/usr/bin/cc  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -std=c99 -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/lexer.dir/lexer.c.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/src/parser/lexer.c",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/src/parser/lexer.c",
+  "output": "src/parser/CMakeFiles/lexer.dir/lexer.c.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/common",
+  "command": "/usr/bin/cc  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -std=c99 -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/common.dir/syntax_tree.c.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/src/common/syntax_tree.c",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/src/common/syntax_tree.c",
+  "output": "src/common/CMakeFiles/common.dir/syntax_tree.c.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/common",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/common.dir/ast.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/src/common/ast.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/src/common/ast.cpp",
+  "output": "src/common/CMakeFiles/common.dir/ast.cpp.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/common",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/common.dir/logging.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/src/common/logging.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/src/common/logging.cpp",
+  "output": "src/common/CMakeFiles/common.dir/logging.cpp.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/logging",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/test_ast.dir/test_ast.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/src/logging/test_ast.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/src/logging/test_ast.cpp",
+  "output": "src/logging/CMakeFiles/test_ast.dir/test_ast.cpp.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/logging",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/test_logging.dir/test_logging.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/src/logging/test_logging.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/src/logging/test_logging.cpp",
+  "output": "src/logging/CMakeFiles/test_logging.dir/test_logging.cpp.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/cminusfc",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/cminusfc.dir/main.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/src/cminusfc/main.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/src/cminusfc/main.cpp",
+  "output": "src/cminusfc/CMakeFiles/cminusfc.dir/main.cpp.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/cminusfc",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/cminusfc.dir/cminusf_builder.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/src/cminusfc/cminusf_builder.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/src/cminusfc/cminusf_builder.cpp",
+  "output": "src/cminusfc/CMakeFiles/cminusfc.dir/cminusf_builder.cpp.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/lightir",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/IR_lib.dir/Type.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/src/lightir/Type.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/src/lightir/Type.cpp",
+  "output": "src/lightir/CMakeFiles/IR_lib.dir/Type.cpp.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/lightir",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/IR_lib.dir/User.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/src/lightir/User.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/src/lightir/User.cpp",
+  "output": "src/lightir/CMakeFiles/IR_lib.dir/User.cpp.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/lightir",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/IR_lib.dir/Value.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/src/lightir/Value.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/src/lightir/Value.cpp",
+  "output": "src/lightir/CMakeFiles/IR_lib.dir/Value.cpp.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/lightir",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/IR_lib.dir/BasicBlock.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/src/lightir/BasicBlock.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/src/lightir/BasicBlock.cpp",
+  "output": "src/lightir/CMakeFiles/IR_lib.dir/BasicBlock.cpp.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/lightir",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/IR_lib.dir/Constant.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/src/lightir/Constant.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/src/lightir/Constant.cpp",
+  "output": "src/lightir/CMakeFiles/IR_lib.dir/Constant.cpp.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/lightir",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/IR_lib.dir/Function.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/src/lightir/Function.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/src/lightir/Function.cpp",
+  "output": "src/lightir/CMakeFiles/IR_lib.dir/Function.cpp.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/lightir",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/IR_lib.dir/GlobalVariable.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/src/lightir/GlobalVariable.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/src/lightir/GlobalVariable.cpp",
+  "output": "src/lightir/CMakeFiles/IR_lib.dir/GlobalVariable.cpp.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/lightir",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/IR_lib.dir/Instruction.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/src/lightir/Instruction.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/src/lightir/Instruction.cpp",
+  "output": "src/lightir/CMakeFiles/IR_lib.dir/Instruction.cpp.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/lightir",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/IR_lib.dir/Module.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/src/lightir/Module.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/src/lightir/Module.cpp",
+  "output": "src/lightir/CMakeFiles/IR_lib.dir/Module.cpp.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/lightir",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/IR_lib.dir/IRprinter.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/src/lightir/IRprinter.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/src/lightir/IRprinter.cpp",
+  "output": "src/lightir/CMakeFiles/IR_lib.dir/IRprinter.cpp.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/src/io",
+  "command": "/usr/bin/cc  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -std=c99 -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/cminus_io.dir/io.c.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/src/io/io.c",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/src/io/io.c",
+  "output": "src/io/CMakeFiles/cminus_io.dir/io.c.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/tests/2-ir-gen/warmup",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/gcd_array_generator.dir/ta_gcd/gcd_array_generator.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/tests/2-ir-gen/warmup/ta_gcd/gcd_array_generator.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/tests/2-ir-gen/warmup/ta_gcd/gcd_array_generator.cpp",
+  "output": "tests/2-ir-gen/warmup/CMakeFiles/gcd_array_generator.dir/ta_gcd/gcd_array_generator.cpp.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/tests/2-ir-gen/warmup",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/stu_assign_generator.dir/stu_cpp/assign_generator.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/tests/2-ir-gen/warmup/stu_cpp/assign_generator.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/tests/2-ir-gen/warmup/stu_cpp/assign_generator.cpp",
+  "output": "tests/2-ir-gen/warmup/CMakeFiles/stu_assign_generator.dir/stu_cpp/assign_generator.cpp.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/tests/2-ir-gen/warmup",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/stu_fun_generator.dir/stu_cpp/fun_generator.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/tests/2-ir-gen/warmup/stu_cpp/fun_generator.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/tests/2-ir-gen/warmup/stu_cpp/fun_generator.cpp",
+  "output": "tests/2-ir-gen/warmup/CMakeFiles/stu_fun_generator.dir/stu_cpp/fun_generator.cpp.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/tests/2-ir-gen/warmup",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/stu_if_generator.dir/stu_cpp/if_generator.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/tests/2-ir-gen/warmup/stu_cpp/if_generator.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/tests/2-ir-gen/warmup/stu_cpp/if_generator.cpp",
+  "output": "tests/2-ir-gen/warmup/CMakeFiles/stu_if_generator.dir/stu_cpp/if_generator.cpp.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/tests/2-ir-gen/warmup",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/stu_while_generator.dir/stu_cpp/while_generator.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/tests/2-ir-gen/warmup/stu_cpp/while_generator.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/tests/2-ir-gen/warmup/stu_cpp/while_generator.cpp",
+  "output": "tests/2-ir-gen/warmup/CMakeFiles/stu_while_generator.dir/stu_cpp/while_generator.cpp.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/tests/2-ir-gen/warmup/calculator",
+  "command": "/usr/bin/cc  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -std=c99 -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/calc_syntax.dir/calc_syntax.c.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/build/tests/2-ir-gen/warmup/calculator/calc_syntax.c",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/tests/2-ir-gen/warmup/calculator/calc_syntax.c",
+  "output": "tests/2-ir-gen/warmup/calculator/CMakeFiles/calc_syntax.dir/calc_syntax.c.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/tests/2-ir-gen/warmup/calculator",
+  "command": "/usr/bin/cc  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -std=c99 -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/calc_syntax.dir/calc_lex.c.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/build/tests/2-ir-gen/warmup/calculator/calc_lex.c",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/tests/2-ir-gen/warmup/calculator/calc_lex.c",
+  "output": "tests/2-ir-gen/warmup/calculator/CMakeFiles/calc_syntax.dir/calc_lex.c.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/tests/2-ir-gen/warmup/calculator",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/calc.dir/calc.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/tests/2-ir-gen/warmup/calculator/calc.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/tests/2-ir-gen/warmup/calculator/calc.cpp",
+  "output": "tests/2-ir-gen/warmup/calculator/CMakeFiles/calc.dir/calc.cpp.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/tests/2-ir-gen/warmup/calculator",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/calc.dir/calc_ast.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/tests/2-ir-gen/warmup/calculator/calc_ast.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/tests/2-ir-gen/warmup/calculator/calc_ast.cpp",
+  "output": "tests/2-ir-gen/warmup/calculator/CMakeFiles/calc.dir/calc_ast.cpp.o"
+},
+{
+  "directory": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/build/tests/2-ir-gen/warmup/calculator",
+  "command": "/usr/bin/c++  -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/cminusfc -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/common -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/include/lightir -I/usr/lib/llvm-18/include -I/home/skapeach/Desktop/2025ustc-jianmu-compiler -I/home/skapeach/Desktop/2025ustc-jianmu-compiler/build  -O0 -Wall -g2 -ggdb -std=gnu++17   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/calc.dir/calc_builder.cpp.o -c /home/skapeach/Desktop/2025ustc-jianmu-compiler/tests/2-ir-gen/warmup/calculator/calc_builder.cpp",
+  "file": "/home/skapeach/Desktop/2025ustc-jianmu-compiler/tests/2-ir-gen/warmup/calculator/calc_builder.cpp",
+  "output": "tests/2-ir-gen/warmup/calculator/CMakeFiles/calc.dir/calc_builder.cpp.o"
+}
+]
