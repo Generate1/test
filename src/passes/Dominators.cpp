@@ -136,7 +136,21 @@ void Dominators::create_idom() {
         {
             auto bb = reversed_post_order_vec_[i];
             // TODO 更新基本块 bb 的 idom_, 设置 changed(如果 idom_ 有变化)
-            throw std::runtime_error("Lab4: 你有一个TODO需要完成！");
+            BasicBlock *new_idom = nullptr;
+            for (auto pred : bb->get_pre_basic_blocks()) {
+                if (idom_[pred] == nullptr) {
+                    continue;
+                }
+                if (new_idom == nullptr) {
+                    new_idom = pred;
+                } else {
+                    new_idom = intersect(pred, new_idom);
+                }
+            }
+            if (new_idom != nullptr && idom_[bb] != new_idom) {
+                idom_[bb] = new_idom;
+                changed = true;
+            }
         }
     } while (changed);
 }
@@ -162,7 +176,16 @@ void Dominators::create_dominance_frontier() {
     {
         auto bb = reversed_post_order_vec_[i];
         // TODO 计算 bb 的支配边界集合, 填入 dom_frontier_
-        throw std::runtime_error("Lab4: 你有一个TODO需要完成！");
+        if (bb->get_pre_basic_blocks().size() < 2) {
+            continue;
+        }
+        for (auto pred : bb->get_pre_basic_blocks()) {
+            auto runner = pred;
+            while (runner != nullptr && runner != idom_[bb]) {
+                dom_frontier_[runner].insert(bb);
+                runner = idom_[runner];
+            }
+        }
     }
 }
 
@@ -180,7 +203,12 @@ void Dominators::create_dom_tree_succ() {
 
     // TODO 分析得到 f_ 中各个基本块的支配树后继
     // 注意如果 idom_[n] = n, 这意味着 n 没有直接支配者，因此 n 的后继中没有 n
-    throw std::runtime_error("Lab4: 你有一个TODO需要完成！");
+    for (auto bb : f_->get_basic_blocks()) {
+        auto idom = idom_[bb];
+        if (idom != nullptr && idom != bb) {
+            dom_tree_succ_blocks_[idom].insert(bb);
+        }
+    }
 }
 
 /**
