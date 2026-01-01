@@ -1,5 +1,6 @@
 #include "Mem2Reg.hpp"
-
+#include <type_traits>
+#include <vector>
 #include "IRBuilder.hpp"
 #include "Value.hpp"
 
@@ -11,7 +12,17 @@ static AllocaInst* is_not_array_alloca(Value* ptr)
     if (alloca != nullptr && !alloca->get_alloca_type()->is_array_type()) return alloca;
     return nullptr;
 }
+template <typename T,
+          typename std::enable_if<!std::is_pointer<typename std::remove_reference<T>::type>::value, int>::type = 0>
+static Instruction *as_instr_ptr(T &instr) {
+    return &instr;
+}
 
+template <typename T,
+          typename std::enable_if<std::is_pointer<typename std::remove_reference<T>::type>::value, int>::type = 0>
+static Instruction *as_instr_ptr(T &instr) {
+    return instr;
+}
 /**
  * @brief Mem2Reg Pass的主入口函数
  *
@@ -81,7 +92,8 @@ void Mem2Reg::generate_phi() {
             if (instr->is_store()) {
                 // store i32 a, i32 *b
                 // a is r_val, b is l_val
-                auto l_val = dynamic_cast<StoreInst*>(instr)->get_ptr();
+               // auto l_val = dynamic_cast<StoreInst*>(instr)->get_ptr();
+			    auto l_val = instr->get_operand(1);
                 if (auto lalloca = is_not_array_alloca(l_val)) {
                     if (!not_array_allocas.count(lalloca))
                     {
@@ -138,15 +150,92 @@ void Mem2Reg::rename(BasicBlock *bb) {
     // StoreInst / LoadInst get_ptr 这些 Inst 所操作的变量
     // is_not_array_alloca(Value* ptr) 一个变量是不是 Mem2Reg 所关心的非数组局部变量
 
-    // TODO
-    // 步骤一：对每个 alloca 非数组变量(局部变量), 在其存储值栈存入其当前的最新值(也就是目前的栈顶值)
+        std::map<AllocaInst *, int> pushed_var_count;
+    auto phi_it = bb_to_phi_.find(bb);
+    if (phi_it != bb_to_phi_.end()) {
+        for (auto phi : phi_it->second) {
+            auto var = phi_to_alloca_[phi];
+            var_val_stack[var].emplace_back(phi);
+            pushed_var_count[var]++;
+        }
+    }
+
     // 步骤二：遍历基本块所有指令，执行操作并记录需要删除的 load/store/alloca 指令(注意: 并非所有 load/store/alloca 都是 Mem2Reg 需要处理的)
     // - 步骤三: 将 store 指令存储的值，作为其对应局部变量的最新值(更新栈顶)
     // - 步骤四: 将 phi 指令作为其对应局部变量的最新值(更新栈顶)
     // - 步骤五: 将 load 指令的所有使用替换为其读取的局部变量的最新值
+    std::vector<Instruction *> instrs_to_delete;
+    for (auto &instr_ref : bb->get_instructions()) {
+        auto instr = as_instr_ptr(instr_ref);
+        if (instr->is_phi())
+            continue;
+
+        if (instr->is_alloca()) {
+            auto alloca = dynamic_cast<AllocaInst *>(instr);
+            if (alloca != nullptr && var_val_stack.count(alloca)) {
+                instrs_to_delete.emplace_back(instr);
+            }
+            continue;
+        }
+
+        if (instr->is_store()) {
+            auto store_inst = dynamic_cast<StoreInst *>(instr);
+            auto l_val = store_inst->get_operand(1);
+            if (auto alloca = is_not_array_alloca(l_val)) {
+                if (var_val_stack.count(alloca)) {
+                    var_val_stack[alloca].emplace_back(store_inst->get_val());
+                    pushed_var_count[alloca]++;
+                    instrs_to_delete.emplace_back(instr);
+                }
+            }
+            continue;
+        }
+
+        if (instr->is_load()) {
+            auto load_inst = dynamic_cast<LoadInst *>(instr);
+            auto l_val = load_inst->get_operand(0);
+            if (auto alloca = is_not_array_alloca(l_val)) {
+                if (var_val_stack.count(alloca)) {
+                    load_inst->replace_all_use_with(var_val_stack[alloca].back());
+                    instrs_to_delete.emplace_back(instr);
+                }
+            }
+            continue;
+        }
+    }
+
     // 步骤六：为所有后继块的 phi 添加参数
+    for (auto succ_bb : bb->get_succ_basic_blocks()) {
+        auto succ_phis_it = bb_to_phi_.find(succ_bb);
+        if (succ_phis_it == bb_to_phi_.end())
+            continue;
+        for (auto phi : succ_phis_it->second) {
+            auto var = phi_to_alloca_[phi];
+            if (var_val_stack.count(var)) {
+                phi->add_phi_pair_operand(var_val_stack[var].back(), bb);
+            }
+        }
+    }
+
     // 步骤七：对 bb 在支配树上的所有后继节点，递归执行 rename 操作
+    for (auto succ_bb : dominators_->get_dom_tree_succ_blocks(bb)) {
+        rename(succ_bb);
+    }
+
     // 步骤八：pop 出所有局部变量的最新值
+    for (auto &pushed : pushed_var_count) {
+        auto &stack = var_val_stack[pushed.first];
+        for (int i = 0; i < pushed.second; i++) {
+            if (!stack.empty())
+                stack.pop_back();
+        }
+    }
+
     // 步骤九：删除需要删除的冗余指令
+    for (auto instr : instrs_to_delete) {
+        bb->erase_instr(instr);
+        delete instr;
+    }
+
 }
 
